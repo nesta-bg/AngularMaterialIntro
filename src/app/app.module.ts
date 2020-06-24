@@ -6,12 +6,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { TypographyComponent } from './typography.component';
 import { ButtonsComponent } from './buttons.component';
+import { ButtonsToggleComponent } from './buttons-toggle.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TypographyComponent,
-    ButtonsComponent
+    ButtonsComponent,
+    ButtonsToggleComponent
   ],
   imports: [
     BrowserModule,
