@@ -7,13 +7,15 @@ import { MaterialModule } from './material/material.module';
 import { TypographyComponent } from './typography.component';
 import { ButtonsComponent } from './buttons.component';
 import { ButtonsToggleComponent } from './buttons-toggle.component';
+import { IconsComponent } from './icons.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TypographyComponent,
     ButtonsComponent,
-    ButtonsToggleComponent
+    ButtonsToggleComponent,
+    IconsComponent
   ],
   imports: [
     BrowserModule,
