@@ -8,6 +8,7 @@ import { TypographyComponent } from './typography.component';
 import { ButtonsComponent } from './buttons.component';
 import { ButtonsToggleComponent } from './buttons-toggle.component';
 import { IconsComponent } from './icons.component';
+import { BadgesComponent } from './badges.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { IconsComponent } from './icons.component';
     TypographyComponent,
     ButtonsComponent,
     ButtonsToggleComponent,
-    IconsComponent
+    IconsComponent,
+    BadgesComponent
   ],
   imports: [
     BrowserModule,
