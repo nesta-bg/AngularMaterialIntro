@@ -11,6 +11,7 @@ import { IconsComponent } from './icons.component';
 import { BadgesComponent } from './badges.component';
 import { ProgressSpinnerComponent } from './progress-spinner.component';
 import { ProgressBarComponent } from './progress-bar.component';
+import { NavbarComponent } from './navbar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ProgressBarComponent } from './progress-bar.component';
     IconsComponent,
     BadgesComponent,
     ProgressSpinnerComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
