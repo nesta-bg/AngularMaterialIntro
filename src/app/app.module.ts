@@ -16,6 +16,7 @@ import { SidenavComponent } from './sidenav.component';
 import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './menu.component';
 import { ListComponent } from './list.component';
+import { GridListComponent } from './grid-list.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ListComponent } from './list.component';
     NavbarComponent,
     SidenavComponent,
     MenuComponent,
-    ListComponent
+    ListComponent,
+    GridListComponent
   ],
   imports: [
     BrowserModule,
