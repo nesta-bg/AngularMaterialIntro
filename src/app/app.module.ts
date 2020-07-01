@@ -15,6 +15,7 @@ import { NavbarComponent } from './navbar.component';
 import { SidenavComponent } from './sidenav.component';
 import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './menu.component';
+import { ListComponent } from './list.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MenuComponent } from './menu.component';
     ProgressBarComponent,
     NavbarComponent,
     SidenavComponent,
-    MenuComponent
+    MenuComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
