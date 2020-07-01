@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { MatButtonModule, MatIconModule, MatBadgeModule, MatProgressSpinnerModule,
   MatProgressBarModule, MatToolbarModule, MatSidenavModule, MatMenuModule, MatListModule,
-  MatDividerModule, MatGridListModule, MatExpansionModule, MatCardModule } from '@angular/material';
+  MatDividerModule, MatGridListModule, MatExpansionModule, MatCardModule, MatTabsModule } from '@angular/material';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 const material = [
@@ -18,7 +18,8 @@ const material = [
   MatDividerModule,
   MatGridListModule,
   MatExpansionModule,
-  MatCardModule
+  MatCardModule,
+  MatTabsModule
 ];
 
 @NgModule({
