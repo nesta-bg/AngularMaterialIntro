@@ -6,7 +6,8 @@ import { MatButtonModule, MatIconModule, MatBadgeModule, MatProgressSpinnerModul
   MatFormFieldModule,
   MatInputModule,
   MatSelectModule,
-  MatAutocompleteModule} from '@angular/material';
+  MatAutocompleteModule,
+  MatCheckboxModule} from '@angular/material';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 const material = [
@@ -29,7 +30,8 @@ const material = [
   MatFormFieldModule,
   MatInputModule,
   MatSelectModule,
-  MatAutocompleteModule
+  MatAutocompleteModule,
+  MatCheckboxModule
 ];
 
 @NgModule({
