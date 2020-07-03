@@ -4,7 +4,8 @@ import { MatButtonModule, MatIconModule, MatBadgeModule, MatProgressSpinnerModul
   MatDividerModule, MatGridListModule, MatExpansionModule, MatCardModule, MatTabsModule,
   MatStepperModule,
   MatFormFieldModule,
-  MatInputModule} from '@angular/material';
+  MatInputModule,
+  MatSelectModule} from '@angular/material';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 const material = [
@@ -25,7 +26,8 @@ const material = [
   MatTabsModule,
   MatStepperModule,
   MatFormFieldModule,
-  MatInputModule
+  MatInputModule,
+  MatSelectModule
 ];
 
 @NgModule({
