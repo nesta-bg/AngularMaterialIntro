@@ -27,6 +27,7 @@ import { AutocompleteComponent } from './autocomplete.component';
 import { CheckboxComponent } from './checkbox.component';
 import { RadioButtonComponent } from './radio-button.component';
 import { DatePickerComponent } from './date-picker.component';
+import { TooltipComponent } from './tooltip.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { DatePickerComponent } from './date-picker.component';
     AutocompleteComponent,
     CheckboxComponent,
     RadioButtonComponent,
-    DatePickerComponent
+    DatePickerComponent,
+    TooltipComponent
   ],
   imports: [
     BrowserModule,
