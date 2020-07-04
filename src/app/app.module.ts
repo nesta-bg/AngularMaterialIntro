@@ -29,6 +29,8 @@ import { RadioButtonComponent } from './radio-button.component';
 import { DatePickerComponent } from './date-picker.component';
 import { TooltipComponent } from './tooltip.component';
 import { SnackbarComponent, CustomSnackbarComponent } from './snackbar.component';
+import { DialogComponent } from './dialog.component';
+import { DialogExampleComponent } from './dialog-example.component';
 
 @NgModule({
   declarations: [
@@ -57,9 +59,11 @@ import { SnackbarComponent, CustomSnackbarComponent } from './snackbar.component
     DatePickerComponent,
     TooltipComponent,
     SnackbarComponent,
-    CustomSnackbarComponent
+    CustomSnackbarComponent,
+    DialogComponent,
+    DialogExampleComponent
   ],
-  entryComponents: [CustomSnackbarComponent],
+  entryComponents: [CustomSnackbarComponent, DialogExampleComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
