@@ -8,7 +8,9 @@ import { MatButtonModule, MatIconModule, MatBadgeModule, MatProgressSpinnerModul
   MatSelectModule,
   MatAutocompleteModule,
   MatCheckboxModule,
-  MatRadioModule} from '@angular/material';
+  MatRadioModule,
+  MatDatepickerModule,
+  MatNativeDateModule} from '@angular/material';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 const material = [
@@ -33,7 +35,9 @@ const material = [
   MatSelectModule,
   MatAutocompleteModule,
   MatCheckboxModule,
-  MatRadioModule
+  MatRadioModule,
+  MatDatepickerModule,
+  MatNativeDateModule
 ];
 
 @NgModule({
