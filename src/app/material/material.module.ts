@@ -15,7 +15,8 @@ import { MatButtonModule, MatIconModule, MatBadgeModule, MatProgressSpinnerModul
   MatSnackBarModule,
   MatDialogModule,
   MatTableModule,
-  MatSortModule} from '@angular/material';
+  MatSortModule,
+  MatPaginatorModule} from '@angular/material';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 
 const material = [
@@ -47,7 +48,8 @@ const material = [
   MatSnackBarModule,
   MatDialogModule,
   MatTableModule,
-  MatSortModule
+  MatSortModule,
+  MatPaginatorModule
 ];
 
 @NgModule({
