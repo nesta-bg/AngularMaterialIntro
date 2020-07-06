@@ -32,6 +32,8 @@ import { SnackbarComponent, CustomSnackbarComponent } from './snackbar.component
 import { DialogComponent } from './dialog.component';
 import { DialogExampleComponent } from './dialog-example.component';
 import { DataTableComponent } from './data-table/data-table.component';
+import { ScrollingModule } from '@angular/cdk/scrolling';
+import { VirtualScrollingComponent } from './virtual-scrolling.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +65,8 @@ import { DataTableComponent } from './data-table/data-table.component';
     CustomSnackbarComponent,
     DialogComponent,
     DialogExampleComponent,
-    DataTableComponent
+    DataTableComponent,
+    VirtualScrollingComponent
   ],
   entryComponents: [CustomSnackbarComponent, DialogExampleComponent],
   imports: [
@@ -71,7 +74,8 @@ import { DataTableComponent } from './data-table/data-table.component';
     BrowserAnimationsModule,
     MaterialModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ScrollingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
