@@ -31,6 +31,7 @@ import { TooltipComponent } from './tooltip.component';
 import { SnackbarComponent, CustomSnackbarComponent } from './snackbar.component';
 import { DialogComponent } from './dialog.component';
 import { DialogExampleComponent } from './dialog-example.component';
+import { DataTableComponent } from './data-table/data-table.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { DialogExampleComponent } from './dialog-example.component';
     SnackbarComponent,
     CustomSnackbarComponent,
     DialogComponent,
-    DialogExampleComponent
+    DialogExampleComponent,
+    DataTableComponent
   ],
   entryComponents: [CustomSnackbarComponent, DialogExampleComponent],
   imports: [
