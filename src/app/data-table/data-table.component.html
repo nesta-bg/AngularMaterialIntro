@@ -1,6 +1,7 @@
 <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
     <!-- Position Column -->
-    <ng-container matColumnDef="position">
+    <!-- <ng-container matColumnDef="positions"> -->
+    <ng-container matColumnDef="position">   
         <mat-header-cell *matHeaderCellDef> No. </mat-header-cell>
         <mat-cell *matCellDef="let element"> {{element.position}} </mat-cell>
     </ng-container>
@@ -24,5 +25,7 @@
     </ng-container>
 
     <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <!-- <mat-row *matRowDef="let row; columns: displayedColumnsData;"></mat-row> -->
+    <!-- <mat-row (click)=logData(row) *matRowDef="let row; columns: displayedColumns;"></mat-row> -->
     <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
 </mat-table>

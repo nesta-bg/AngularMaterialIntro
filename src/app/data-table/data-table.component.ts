@@ -26,12 +26,20 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrls: ['./data-table.component.css']
 })
 export class DataTableComponent implements OnInit {
+  // displayedColumns: string[] = ['position', 'name', 'weight'];
+  // displayedColumns: string[] = ['weight', 'position', 'symbol', 'name'];
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = ELEMENT_DATA;
+
+  displayedColumnsData: string[] = ['position', 'name', 'symbol'];
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  logData(row) {
+    console.log(row);
   }
 
 }
